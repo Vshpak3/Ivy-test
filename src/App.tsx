@@ -1,9 +1,10 @@
-import { Button } from "@/components/ui/button";
+import { UserTable } from "./components/user-table";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
+    <div className="container mx-auto p-4 max-w-4xl h-screen">
+      <h1 className="text-2xl font-bold mb-4">User Table</h1>
+      <UserTable />
     </div>
   );
 }
